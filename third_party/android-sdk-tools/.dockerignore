@@ -1,0 +1,6 @@
+.git
+build
+*.zip
+*.tar.xz
+*.o
+*.a

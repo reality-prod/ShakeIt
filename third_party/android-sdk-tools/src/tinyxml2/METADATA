@@ -1,0 +1,20 @@
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/tinyxml2
+# For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
+
+name: "tinyxml2"
+description: "TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrating into other programs."
+third_party {
+  license_type: RESTRICTED
+  last_upgrade_date {
+    year: 2024
+    month: 4
+    day: 12
+  }
+  homepage: "https://github.com/leethomason/tinyxml2"
+  identifier {
+    type: "Git"
+    value: "https://github.com/leethomason/tinyxml2.git"
+    version: "10.0.0"
+  }
+}

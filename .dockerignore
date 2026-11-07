@@ -1,0 +1,7 @@
+.git
+.gradle
+.kotlin
+build
+app/build
+outputs
+*.DS_Store
